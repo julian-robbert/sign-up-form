@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'fugaz_oneregular';
+    src: url('fugazone-regular-webfont.woff2') format('woff2'),
+         url('fugazone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 div{
     border: 1px solid black;
     width: 400px;
     height: 400px;
+    font-family: 'fugaz_oneregular', sans-serif;
 }
