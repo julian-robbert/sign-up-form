@@ -75,11 +75,11 @@ main{
 }
 
 .main-text{
-  bottom: 20%;
+  bottom:30%;
 }
 
 .please{
-  bottom: 0;
+  bottom: 10%;
   font-style: italic;
 }
 
@@ -88,6 +88,7 @@ main{
   height: 40vh;
   box-shadow: 0 1px 10px rgb(200, 200, 200);
   z-index: 10;
+  padding-left: 5%;
 }
 
 .sign-up-buttons-container{
@@ -124,4 +125,13 @@ main{
 a{
   color: #677b8d;
   text-decoration: none;
+}
+
+h1{
+  font-size: 1.3rem;
+}
+
+.required{
+  font-size: 0.75rem;
+  font-weight: lighter;
 }
