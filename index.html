@@ -26,13 +26,50 @@
         </p>
       </div>
       <div class="form-container">
-        <form action="#" method="post">
+        <div>
           <h1>Let's do this!</h1>
-          <p class="required">Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+        </div>
+        <form action="#" method="post" id="sign-up-form">
+          <p>
+            <label>
+              FIRST NAME*
+              <input type="text" name="firstname" required>
+            </label>
+          </p>
+          <p>
+            <label>
+              LAST NAME*
+              <input type="text" required>
+            </label>
+          </p>
+          <p>
+            <label>
+              EMAIL*
+              <input type="email" required>
+            </label>
+          </p>
+          <p>
+            <label>
+              PHONE NUMBER
+              <input type="number">
+            </label>
+          </p>
+          <p>
+            <label>
+              PASSWORD*
+              <input type="password" class="error" required>
+            </label>
+          </p>
+          <p>
+            <label>
+              CONFIRM PASSWORD*
+              <input type="password" class="error" required>
+            </label>
+          </p>
         </form>
       </div>
       <div class="sign-up-buttons-container">
-        <input id="submit-button" type="button" value="Create Account">
+        <button id="submit-button" type="submit" form="sign-up-form" value="Create Account">Create Account</button>
         <p class="log-in">Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>

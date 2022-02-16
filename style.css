@@ -70,16 +70,16 @@ main{
 
 .heading p{
   position: absolute;
-  padding-right: 20%;
+  padding-right: 25%;
   padding-left: 5%;
 }
 
 .main-text{
-  bottom:30%;
+  bottom:40%;
 }
 
 .please{
-  bottom: 10%;
+  bottom: 20%;
   font-style: italic;
 }
 
@@ -118,7 +118,7 @@ main{
 .log-in{
   font-size: 1rem;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 5%;
 }
 
@@ -134,4 +134,32 @@ h1{
 .required{
   font-size: 0.75rem;
   font-weight: lighter;
+}
+
+form{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  column-gap: 2rem;
+}
+
+label{
+  font-weight: bold;
+  font-size: 0.65rem;
+}
+
+p{
+  margin: 0;
+}
+
+input{
+  width: 275px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid lightgray;
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid #677b8d;
 }
